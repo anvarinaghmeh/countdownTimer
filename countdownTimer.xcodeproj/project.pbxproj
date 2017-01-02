@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		9F1546831E1A09AE00F4E211 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1546821E1A09AE00F4E211 /* AppDelegate.swift */; };
-		9F1546851E1A09AE00F4E211 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1546841E1A09AE00F4E211 /* ViewController.swift */; };
+		9F1546851E1A09AE00F4E211 /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1546841E1A09AE00F4E211 /* TimerController.swift */; };
 		9F1546881E1A09AE00F4E211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1546861E1A09AE00F4E211 /* Main.storyboard */; };
 		9F15468A1E1A09AE00F4E211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1546891E1A09AE00F4E211 /* Assets.xcassets */; };
 		9F15468D1E1A09AE00F4E211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F15468B1E1A09AE00F4E211 /* LaunchScreen.storyboard */; };
+		9F1546951E1AD03400F4E211 /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F1546941E1AD03400F4E211 /* alarm.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9F15467F1E1A09AE00F4E211 /* countdownTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = countdownTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1546821E1A09AE00F4E211 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F1546841E1A09AE00F4E211 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F1546841E1A09AE00F4E211 /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
 		9F1546871E1A09AE00F4E211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F1546891E1A09AE00F4E211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F15468C1E1A09AE00F4E211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F15468E1E1A09AE00F4E211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F1546941E1AD03400F4E211 /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +57,11 @@
 			isa = PBXGroup;
 			children = (
 				9F1546821E1A09AE00F4E211 /* AppDelegate.swift */,
-				9F1546841E1A09AE00F4E211 /* ViewController.swift */,
+				9F1546841E1A09AE00F4E211 /* TimerController.swift */,
 				9F1546861E1A09AE00F4E211 /* Main.storyboard */,
 				9F1546891E1A09AE00F4E211 /* Assets.xcassets */,
 				9F15468B1E1A09AE00F4E211 /* LaunchScreen.storyboard */,
+				9F1546941E1AD03400F4E211 /* alarm.mp3 */,
 				9F15468E1E1A09AE00F4E211 /* Info.plist */,
 			);
 			path = countdownTimer;
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1546951E1AD03400F4E211 /* alarm.mp3 in Resources */,
 				9F15468D1E1A09AE00F4E211 /* LaunchScreen.storyboard in Resources */,
 				9F15468A1E1A09AE00F4E211 /* Assets.xcassets in Resources */,
 				9F1546881E1A09AE00F4E211 /* Main.storyboard in Resources */,
@@ -137,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F1546851E1A09AE00F4E211 /* ViewController.swift in Sources */,
+				9F1546851E1A09AE00F4E211 /* TimerController.swift in Sources */,
 				9F1546831E1A09AE00F4E211 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
